@@ -1,13 +1,17 @@
+
+/*Styles set to applied to all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Gives the page a background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Applies a specific font family to the header with white text and a blue background, along with content padding*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,13 +19,14 @@ header {
     color: #ffffff;
 }
 
+/*Declares a font size for the "horiseon" text in the header, also changes the display to inline*/
 h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
-
+/*Adds boundaries between text for navigation elements, adjusts font size to be smaller than the "horiseon" text */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,22 +36,34 @@ nav {
 }
 
 
-
+/*Displays list items inline, and adds a left margin*/
 li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 
+/*Sets a text color for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Sets font size for paragraph elements */
 p {
     font-size: 16px;
 }
 
+/*Sets space for the footer, declares font styles, and center aligns text*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Adjusts the space for our largest image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,22 +73,69 @@ p {
     background-position: center;
 }
 
+/*Sets images to the left hand side of their section*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Sets images to the right hand side of their section*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Creates space between articles in the benefit class*/
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+/*Center aligns text and creates space between benefit class headings*/
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/*Creates a margin around benefits class images, and declares a width for the image*/
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/*Creates space, declares a height, font-family, background color, and text color, for articles in the content class*/
+.content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Declares a height for images in the content class*/
+.content img {
+    max-height: 200px;
+}
+
+/*Sets a bottom margin and font size for h2 subheadings in the content class*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Creates the space and sets the display for the content section*/
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Creates space, sets a font family, and background color for the benefits section*/
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,55 +147,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-.content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-.content img {
-    max-height: 200px;
-}
-
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
 
