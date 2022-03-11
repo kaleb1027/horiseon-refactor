@@ -5,5 +5,6 @@ This project entailed the code refactoring of the Horiseon services homepage. Fo
 
 ## Deployed Application
 
+
 ## Link
 https://kaleb1027.github.io/horiseon-refactor/
